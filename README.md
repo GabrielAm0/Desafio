@@ -20,8 +20,11 @@ Após isto deve ser criada uma tabela com o nome "registros" com 7 linhas, segue
 
 ![image](https://user-images.githubusercontent.com/90906766/235648609-ec093422-6174-4cea-9e1c-c9c2aeda87e8.png)
 
-Após isto clique em Guardar 
+Após isto clique em Guardar.
 
-Após isto vá no caminho onde você instalou o XAMPP e acesse a pasta "htdocs" (Normalmente o caminho é "C:\xampp\htdocs"), e mova a pasta Desafio para dentro da pasta "htdocs".
+Após isto baixe os arquivos do projeto, abra a pasta Desafio-main e copie todos os arquivos dentro dela. 
 
-Após isto basta acessar em seu navegador o link "http://localhost/Desafio" para acessar o projeto 
+Após isto vá no caminho onde você instalou o XAMPP e acesse a pasta "htdocs" (Normalmente o caminho é "C:\xampp\htdocs"), e crie uma pasta chamad Desafio para dentro da pasta "htdocs".
+Depois disto cole todos os arquivos dentro de Desafio-main dentro da pasta Desafio que você criou.
+
+Após isto basta acessar em seu navegador o link "http://localhost/Desafio" para acessar o projeto.
