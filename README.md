@@ -14,9 +14,13 @@ http://localhost/phpmyadmin/index.php?route=/#
 
 Este link é para acessar o phpMYAdmin, que é um gerenciador de banco de dados com interface gráfica via WEB.
 
-Após isto clice em importar e selecione o arquivo "desafio.sql" na pasta "Banco de dados". Segue imagem
+Após isto clique novo, para criar um banco de dados novo.
+Ele deve ser nomeado de "desafio" e estar no conjunto de caracterers "utf8_general_ci".
+Após isto deve ser criada uma tabela com o nome "registros" com 7 linhas, segue um print com a configuração de cada linha:
 
-![image](https://user-images.githubusercontent.com/90906766/235635888-27190a28-f94e-4eec-b8da-68ff072d17d2.png)
+![image](https://user-images.githubusercontent.com/90906766/235648609-ec093422-6174-4cea-9e1c-c9c2aeda87e8.png)
+
+Após isto clique em Guardar 
 
 Após isto vá no caminho onde você instalou o XAMPP e acesse a pasta "htdocs" (Normalmente o caminho é "C:\xampp\htdocs"), e mova a pasta Desafio para dentro da pasta "htdocs".
 
