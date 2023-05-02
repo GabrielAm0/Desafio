@@ -1,0 +1,391 @@
+body {
+  margin: 0;
+  background-color: #414141;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+label {
+  color: white;
+}
+td {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle !important;
+  border: 1px solid #dee2e6;
+}
+i {
+  color: white;
+}
+.thead {
+  background-color: #f7f7f7;
+}
+.cor-list {
+  color: #1db21f;
+}
+.cor-registro {
+  color: #1e7cd7;
+}
+#tabela-principal {
+  background-color: #fff;
+}
+
+tr {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-bottom: 1pt solid #dee2e6;
+}
+.buton-entrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.td-edit {
+  border: 0px;
+}
+.border-radius {
+  border-radius: 10px;
+}
+.border-right-radius {
+  border-top-right-radius: 10px;
+}
+.border-left-radius {
+  border-top-right-radius: 10px;
+}
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-right: 2px;
+}
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-botao {
+  background-color: #e0a800;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white !important;
+  border-radius: 0.3rem;
+  font-size: 20px;
+}
+.link-botao:hover {
+  background-color: #d19e03;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white !important;
+  border-radius: 0.3rem;
+  font-size: 20px;
+}
+
+/*IPHONE XR*/
+@media (max-width: 414px) {
+  .texto-centro {
+    text-align: center !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+.margin-top-botom-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.client-list-register {
+  text-transform: uppercase;
+}
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo {
+  height: 40px;
+}
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #222;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #222;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.fundo-login {
+  background: #ececec;
+  padding: 0 20px 0 20px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.row1 {
+  width: 900px;
+  height: 550px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.side-image {
+  background-image: url("../../assets/img/cavalo_login.jpg");
+  background-position: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 10px 0 0 10px;
+}
+.side-image-regist {
+  background-image: url(../../assets/img/cavalo_login1.jpg);
+  background-position: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 10px 0 0 10px;
+}
+.color-fundo:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(0 0 0 / 49%);
+}
+
+.logo-login {
+  width: 60px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.text-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-login p {
+  color: #fff;
+  font-size: 18px;
+}
+i {
+  font-weight: 400;
+  font-size: 15px;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.input-box {
+  width: 330px;
+  box-sizing: border-box;
+}
+.input-box header {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 10px 0 10px;
+}
+.input {
+  height: 45px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  margin-bottom: 20px;
+  color: #40414a;
+}
+.input-box .input-field label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+  transition: 0.5s;
+  color: black;
+}
+.input-field .input:focus ~ label {
+  top: -10px;
+  font-size: 13px;
+}
+.input-field .input:valid ~ label {
+  top: -10px;
+  font-size: 13px;
+  color: #5d5076;
+}
+.input-field .input:focus,
+.input-field .input:valid {
+  border-bottom: 1px solid #743ae1;
+}
+.submit {
+  border: none;
+  outline: none;
+  height: 45px;
+  background: #d5d5d5;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.submit:hover {
+  background: #f36e21;
+  color: #fff;
+}
+.signin {
+  text-align: center;
+  font-size: small;
+  margin-top: 25px;
+}
+span a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  transition: 0.5s;
+}
+span a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+@media only screen and (max-width: 768px) {
+  .side-image {
+    background-image: url(../../assets/img/cavalo_login.jpg);
+    background-position: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+    height: 200px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+  }
+  .side-image-regist {
+    background-image: url(../../assets/img/cavalo_login1.jpg);
+    background-position: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+    height: 200px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+  }
+  .logo-login {
+    width: 35px;
+    position: absolute;
+    top: 20px;
+    left: 47%;
+  }
+  .logo-login {
+    position: absolute;
+    top: 70%;
+    text-align: center;
+  }
+  .logo-login p,
+  i {
+    font-size: 13px;
+  }
+  .row1 {
+    max-width: 420px;
+    width: 100%;
+    display: block;
+  }
+  /*.text-login{*/
+  /*margin-top: 40px;*/
+  /*color: white;*/
+  /*}*/
+}
+.text-decoration0 {
+  text-decoration: none;
+  color: white;
+}
+
+.form-regist {
+  display: contents;
+}
